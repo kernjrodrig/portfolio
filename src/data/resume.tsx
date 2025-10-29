@@ -71,7 +71,7 @@ export const DATA = {
       badges: ["Current"],
       location: "Mexico City, Mexico",
       title: "Emerging Solutions - Technical Sales Representative",
-      logoUrl: "/guzdan.png",
+      logoUrl: "/Logo-Guzdan-Blanco.webp",
       start: "Apr 2024",
       end: null,
       description:
@@ -85,7 +85,7 @@ export const DATA = {
       badges: [],
       location: "Mexico City, Mexico",
       title: "IT Infrastructure Administrator",
-      logoUrl: "",
+      logoUrl: "/asteci_logo.svg",
       start: "Nov 2023",
       end: "Apr 2024",
       description:
@@ -97,7 +97,7 @@ export const DATA = {
       badges: [],
       location: "Mexico City, Mexico",
       title: "Computer Security Administrator",
-      logoUrl: "",
+      logoUrl: "/prosalogo.jpg",
       start: "Apr 2023",
       end: "Nov 2023",
       description:
@@ -109,7 +109,7 @@ export const DATA = {
       badges: [],
       location: "Buenos Aires Province, Argentina",
       title: "Senior Linux System Administrator",
-      logoUrl: "",
+      logoUrl: "/bizland.jpg",
       start: "Dec 2022",
       end: "Jun 2023",
       description:
@@ -121,7 +121,7 @@ export const DATA = {
       badges: [],
       location: "Buenos Aires Province, Argentina",
       title: "Linux System Administrator",
-      logoUrl: "",
+      logoUrl: "/worldline-argentina.png",
       start: "Jun 2021",
       end: "Dec 2022",
       description:
@@ -133,7 +133,7 @@ export const DATA = {
       badges: [],
       location: "Argentina",
       title: "System Administrator",
-      logoUrl: "",
+      logoUrl: "/BA.jpg",
       start: "Apr 2018",
       end: "Apr 2021",
       description:
@@ -143,9 +143,9 @@ export const DATA = {
   education: [
     {
       school: "Universidad Nororiental Gran Mariscal de Ayacucho",
-      href: "https://uneg.edu.ve",
+      href: "https://ugma.terna.net/",
       degree: "Bachelor's Degree in Systems Engineering",
-      logoUrl: "/uneg.png",
+      logoUrl: "/ugma-logo.png",
       start: "2009",
       end: "2014",
     },
@@ -155,7 +155,7 @@ export const DATA = {
       href: "https://redhat.com",
       location: "Remote",
       title: "Certified System Administrator",
-      logoUrl: "/redhat.png",
+      logoUrl: "/Red_Hat_logo.svg.png",
       start: "Oct 2024",
       end: "Oct 2027",
       description:
