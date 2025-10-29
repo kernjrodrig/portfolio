@@ -20,6 +20,7 @@ interface Props {
   link?: string;
   image?: string;
   video?: string;
+  embed?: string; // e.g. YouTube embed URL
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -37,6 +38,7 @@ export function ProjectCard({
   link,
   image,
   video,
+  embed,
   links,
   className,
 }: Props) {
@@ -50,7 +52,16 @@ export function ProjectCard({
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
+        {embed && (
+          <iframe
+            src={embed}
+            className="pointer-events-none mx-auto h-40 w-full object-cover object-top"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowFullScreen
+            loading="lazy"
+          />
+        )}
+        {!embed && video && (
           <video
             src={video}
             autoPlay
@@ -60,7 +71,7 @@ export function ProjectCard({
             className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
           />
         )}
-        {image && (
+        {!embed && !video && image && (
           <Image
             src={image}
             alt={title}

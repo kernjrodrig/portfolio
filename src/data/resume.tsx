@@ -184,6 +184,27 @@ export const DATA = {
       video: "",
     },
     {
+      title: "AAP + Dynatrace Agent Mass Deployment",
+      href: "https://www.youtube.com/watch?v=giKV-5D8g3g",
+      dates: "2024",
+      active: false,
+      description:
+        "Integration between Ansible Automation Platform and Dynatrace to deploy and configure the OneAgent at scale. Automated rollout, health checks, and idempotent updates across fleets.",
+      technologies: [
+        "Ansible Automation Platform",
+        "Dynatrace",
+        "Linux",
+        "Bash",
+        "Python",
+        "REST API",
+      ],
+      links: [],
+      image: "",
+      video: "",
+      // YouTube embed with autoplay, muted, loop
+      embed: "https://www.youtube.com/embed/giKV-5D8g3g?autoplay=1&mute=1&loop=1&playlist=giKV-5D8g3g",
+    },
+    {
       title: "Red Hat Enterprise Linux Migration",
       href: "#",
       dates: "2024",
